@@ -1,13 +1,13 @@
 /*src used: https://css-tricks.com/perfect-full-page-background-image/*/
 html {
-	background: url("../images/treasure.jpg") no-repeat center center fixed;
+	background: url("../images/treasure.jpg") no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
 header {
-	
+	background-color: black;
 
 }
 
@@ -19,9 +19,11 @@ h1 {
 	padding: 40px;
 }
 
-h3 {
+h3, h2 {
 	font-weight: bold;
 }
+
+/* Random number for each crystal*/
 
 #play {
 	background-color: white;
@@ -35,15 +37,17 @@ h3 {
 #matchNum {
 	background-color: orange;
 	font-size: 25px;
+	float: left;
 	height: 75px;
-	width: 300px;
-	padding: 50px;
+	width: 200px;
+	padding: 30px;
 	margin: 25px;
 }
 
 #winnerAndLoser {
 	background-color: green;
 	font-size: 25px;
+	clear: left;
 	height: 80px;
 	width: 100px;
 	padding: 30px;
@@ -53,15 +57,55 @@ h3 {
 #blue, #green, #multi, #red {
 	height: 80px;
 	width: 80px;
+	clear: both;
 	background-color: lightskyblue;
 	padding: 20px;
 	margin: 15px;
 }
 
+#yourScore {
+	background-color: white;
+	font-size: 18px;
+	height: 100px;
+	width: 400px;
+	padding: 30px;
+	margin: 25px;
+}
+
+/* keeping footer at the bottom, https://codepen.io/cbracco/pen/zekgx*/
+
+footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: black;
+	text-align: center;
+}
+
+/* Making site responsive */
+
+@media only screen and (max-width: 768px) {
+	.content-wrapper {
+        background-color: red;
+        width: 75%;
+    }
+body {
+	width: 100%;
+}
+}
 
 
 
-
-
-
-
+@media only screen and (max-width: 640px) {
+	.content-wrapper {
+		background-color: blue;
+	}
+	
+	
+	body {
+		width: 100%;
+	}
+	
+}
