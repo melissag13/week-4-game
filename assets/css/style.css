@@ -1,6 +1,6 @@
 /*src used: https://css-tricks.com/perfect-full-page-background-image/*/
 html {
-	background: url("../images/treasure.jpg") no-repeat center center;
+	background: url("../images/treasure-underwater.jpg") no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
