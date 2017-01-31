@@ -1,5 +1,5 @@
 # Crystal Collector Game
-![alt tag]()
+![alt tag](https://github.com/melissag13/week-4-game/blob/master/assets/images/Screen%20Shot%202017-01-31%20at%208.30.31%20AM.png)
 
 ###Objectives
 * The player will have to guess the answer to the random number shown using the crystal which have random hidden values.
